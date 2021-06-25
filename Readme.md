@@ -39,6 +39,7 @@ To check following functions which are both included in main and interrupt funct
 * Put "pico_divider_test.uf2" on RPI-RP2 drive
 
 ## Failure example
+* pico-sdk: 1.2.0 (bfcbefafc5d2a210551a4d9d80b4303d4ae0adf7)
 ```
 START
 ERROR [calc_64bit][136744975] samplesPlayed = 33375364, millis_ref = 756811, millis = 329709
