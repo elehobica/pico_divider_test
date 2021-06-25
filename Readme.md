@@ -48,4 +48,10 @@ ERROR [calc_64bit][247011501] samplesPlayed = 60456996, millis_ref = 1370907, mi
 ERROR [calc_64bit][311120985] samplesPlayed = 76175736, millis_ref = 1727341, millis = 1715638
 dummy = -1183355269
 END
+START
+ERROR [calc_64bit][133655019] samplesPlayed = 32617946, millis_ref = 739636, millis = 369817
+ERROR [calc_64bit][166034564] samplesPlayed = 40572000, millis_ref = 920000, millis = 918752
+ERROR [calc_64bit][338939880] samplesPlayed = 82993592, millis_ref = 1881941, millis = 940970
+dummy = -1183355269
+END
 ```
