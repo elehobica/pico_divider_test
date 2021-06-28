@@ -36,8 +36,8 @@ To check 64bit division in main code with float division in interrupt code.
 ```
 * Put "pico_divider_test.uf2" on RPI-RP2 drive
 
-## Failure example
-* pico-sdk: 1.2.0 (bfcbefafc5d2a210551a4d9d80b4303d4ae0adf7)
+## Trials
+* pico-sdk: [1.2.0](https://github.com/raspberrypi/pico-sdk/tree/bfcbefafc5d2a210551a4d9d80b4303d4ae0adf7)
 ```
 START
 ERROR [calc_64bit][8838] samplesPlayed = 213319408, millis_ref = 4837175, millis = 2369891
@@ -154,3 +154,22 @@ ERROR [calc_64bit][1618101] samplesPlayed = 352530496, millis_ref = 7993889, mil
 dummy = -1842581252
 END
 ```
+
+* pico-sdk: [6d734d58e69c5dacc9abc7c0630a86015ec7806c](https://github.com/raspberrypi/pico-sdk/tree/6d734d58e69c5dacc9abc7c0630a86015ec7806c)
+
+The issue cleared
+```
+START
+dummy = -689200320
+END
+START
+dummy = -1228038064
+END
+START
+dummy = -400537460
+END
+START
+dummy = 632545782
+END
+```
+
