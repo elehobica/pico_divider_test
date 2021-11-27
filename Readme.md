@@ -172,4 +172,18 @@ START
 dummy = 632545782
 END
 ```
-
+* pico-sdk: [1.3.0](https://github.com/raspberrypi/pico-sdk/tree/1.3.0)
+```
+START
+dummy = -1660752488
+END
+START
+dummy = -1027528420
+END
+START
+dummy = 1441584209
+END
+START
+dummy = -1518837640
+END
+```
